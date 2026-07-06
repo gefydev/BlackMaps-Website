@@ -23,6 +23,7 @@ export async function generateMetadata() {
   };
 }
 
-export default async function NotFoundPage({ params: { locale } }) {
+export default async function NotFoundPage({ params }) {
+  const { locale } = await params;
   notFound(locale);
 }

@@ -12,7 +12,8 @@ export function generateStaticParams() {
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children, params: { locale } }) {
+export default async function RootLayout({ children, params }) {
+  const { locale } = await params;
   return (
     <html lang={locale} dir={locale}>
       <head>

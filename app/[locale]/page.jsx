@@ -33,7 +33,8 @@ export async function generateSchemas(t, locale) {
   };
 }
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
   const { t } = await initTranslations(locale, i18nNamespaces);
   const baseUrl = "https://blackmaps.com.ar";
   const canonicalUrl =
@@ -68,7 +69,8 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-export default async function Home({ params: { locale } }) {
+export default async function Home({ params }) {
+  const { locale } = await params;
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
   const schemas = await generateSchemas(t, locale);
   const schemaJSON = JSON.stringify(schemas);
