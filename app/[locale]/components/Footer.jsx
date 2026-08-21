@@ -26,7 +26,7 @@ export default async function Footer({ locale }) {
                 <Logo className="dark:invert logo" width={128} height={128} />
               </Link>
               <Link
-                title="GenaDeev"
+                title="gefydev"
                 href="https://www.linkedin.com/in/genadev"
                 className="hover:scale-95 transition duration-200 "
               >
@@ -36,7 +36,7 @@ export default async function Footer({ locale }) {
                   width={128}
                   height={128}
                   className="rounded-xl"
-                  alt="Logo de GenaDev"
+                  alt="Logo de gefydev"
                 />
               </Link>
             </div>
@@ -75,7 +75,7 @@ export default async function Footer({ locale }) {
                 <ul className="font-medium flex flex-col gap-4">
                   <li>
                     <a
-                      href="https://github.com/GenaDeev/BlackMaps-Website"
+                      href="https://github.com/gefydev/BlackMaps-Website"
                       className="hover:underline "
                     >
                       {t("dev_repo")}
@@ -83,7 +83,7 @@ export default async function Footer({ locale }) {
                   </li>
                   <li>
                     <a
-                      href="https://github.com/GenaAaaj/BlackMaps-Website/blob/main/LICENSE.md"
+                      href="https://github.com/gefydev/BlackMaps-Website/blob/main/LICENSE.md"
                       className="hover:underline"
                     >
                       {t("dev_license")}
@@ -94,7 +94,7 @@ export default async function Footer({ locale }) {
                       href="https://www.linkedin.com/in/genadev"
                       className="hover:underline"
                     >
-                      @GenaDeev
+                      @gefydev
                     </a>
                   </li>
                 </ul>
@@ -113,7 +113,7 @@ export default async function Footer({ locale }) {
                 href="https://www.linkedin.com/in/genadev"
                 className="hover:underline"
               >
-                GenaDeev
+                gefydev
               </a>{" "}
               {t("copy_2")}{" "}
               <a
@@ -183,7 +183,7 @@ export default async function Footer({ locale }) {
               </a>
               <a
                 title={t("icon_sr_git")}
-                href="https://github.com/GenaAaaj/BlackMaps-Website/"
+                href="https://github.com/gefydev/BlackMaps-Website/"
                 className="hover:text-gray-500 text-gray-900 dark:text-white dark:hover:text-gray-500 ms-5"
               >
                 <svg

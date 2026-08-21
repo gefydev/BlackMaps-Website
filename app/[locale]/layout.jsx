@@ -66,7 +66,7 @@ export default async function RootLayout({ children, params }) {
         <link rel="manifest" href="https://blackmaps.com.ar/manifest.json" />
 
         <meta name="author" content="BlackMaps" />
-        <meta name="publisher" content="GenaDev" />
+        <meta name="publisher" content="gefydev" />
         <meta name="rating" content="5" />
         <meta name="distribution" content="global" />
         <meta name="copyright" content="BlackMaps™ 2024" />

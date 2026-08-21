@@ -57,11 +57,11 @@ export async function GET() {
         <div class="badge">
         <span>405</span>
         </div>
-        <a title="Gena Deev" href="https://github.com/GenaDeev/" target="_blank" rel="noopener noreferrer">
-        <img src="https://blackmaps.com.ar/image/genadev-v-nobg-2.webp" alt="Logo de GenaDeev">
+        <a title="gefydev" href="https://github.com/gefydev/" target="_blank" rel="noopener noreferrer">
+        <img src="https://blackmaps.com.ar/image/genadev-v-nobg-2.webp" alt="Logo de gefydev">
         </a>
         <div class="badge">
-          <span>GenaHost</span> by <span>GenaDeev</span>
+          <span>GenaHost</span> by <span>gefydev</span>
         </div>
         <h1>Method not Allowed</h1>
         <h2>Cannot GET <span>/api/mail</span></h2>

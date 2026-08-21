@@ -29,7 +29,7 @@ export default function NotFound() {
           <div className="relative w-24 h-24">
             {" "}
             <Link
-              title="GenaDeev"
+              title="gefydev"
               className="block w-full h-full transform transition-all hover:border-4 border-neutral-300 rounded-2xl hover:shadow-xl hover:shadow-white hover:scale-110 active:scale-95 will-change-transform"
               href="https://www.linkedin.com/in/genadev"
             >
@@ -39,7 +39,7 @@ export default function NotFound() {
                 width={256}
                 height={256}
                 className="rounded-xl p-2 w-full h-full bg-white"
-                alt="Logo de GenaDev"
+                alt="Logo de gefydev"
               />
             </Link>
           </div>
@@ -53,7 +53,7 @@ export default function NotFound() {
           </h1>
           <h3 className="opacity-60">
             BlackMaps Website by{" "}
-            <a href="https://www.linkedin.com/in/genadev">GenaDeev</a>
+            <a href="https://www.linkedin.com/in/genadev">gefydev</a>
           </h3>
         </div>
       </div>

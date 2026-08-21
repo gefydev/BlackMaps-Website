@@ -165,4 +165,4 @@ d. Nothing in this Public License constitutes or may be interpreted as a limitat
 ---
 
 ## BlackMaps © 2024 All rights reserved.
-#### _Created & manteined by **[GenaDeev © 2024](https://github.com/GenaDeev)**_
+#### _Created & manteined by **[gefydev © 2024](https://github.com/gefydev)**_
